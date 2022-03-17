@@ -14,7 +14,7 @@ fire up your command pallet and try
     // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
-        {
+        <!-- {
             "label": "dc app bash",
             "linux": "sudo docker-compose exec app bash",
             "windows": "docker-compose exec app bash",
@@ -100,7 +100,7 @@ fire up your command pallet and try
         {
             "label": "dc down",
             "command": "sudo docker-compose down"
-        },
+        }, -->
         {
             "label": "dc drop mysql:database",
             "type": "shell",
